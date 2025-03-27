@@ -5,7 +5,7 @@ nextflow.enable.dsl=2
 params.reads = "$projectDir/data/sequences/SRR29867405_{1,2}.fastq"
 params.genref = "$projectDir/data/reference/GCF_000001405.40_GRCh38.p14_genomic.fna"
 params.multiqc = "$projectDir/multiqc"
-params.outdir = "./results"
+params.outdir = "/mnt/d/Users/Public/.nextflow/results"
 
 log.info """\
     Variant Calling Pipeline
